@@ -12,4 +12,7 @@ Installing Apache Tez on a 1-node Hadoop Cluster
 
 $hadoop jar $TEZ_HOME/<tez-examples.jar> orderedwordcount /path/to/sample/text/file /path/to/output/hdfs/directory
 
+# Integrating Hive and Tez
+
+
 
