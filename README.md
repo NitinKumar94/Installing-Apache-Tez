@@ -1,5 +1,5 @@
 # Installing-Apache-Tez
-Installing Apache Tez on a 1-node Hadoop Cluster
+Installing Apache Tez on a 1-node Hadoop Cluster (Tez version 0.8.4)
 
 1. Download the apache tez binary tar ball from http://www.apache.org/dyn/closer.lua/tez/0.8.4/
 2. Choose a mirror of your choice and download the apache-tez-0.8.4-bin.tar.gz file and extract the tar ball to your local directory (say /hdfsuser/tez)
