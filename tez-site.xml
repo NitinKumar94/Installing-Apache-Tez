@@ -1,0 +1,8 @@
+<!--<hdfs://localhost:8020 is the value as specified in fs.defaultFS in hdfs-site.xml>-->
+<configuration>
+<property>
+    <name>tez.lib.uris</name>
+    <value>hdfs://localhost:8020/user/tez/share/tez.tar.gz</value>
+    <type>string</type>
+</property>
+</configuration>
