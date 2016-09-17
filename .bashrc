@@ -1,5 +1,5 @@
 # exporting TEZ specific environment variables
-export TEZ_HOME=/data/tez
+export TEZ_HOME=/hdfsuser/tez
 export TEZ_CONF_DIR=$TEZ_HOME/conf
 export TEZ_JARS=$TEZ_HOME
 
