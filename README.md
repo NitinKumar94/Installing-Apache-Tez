@@ -13,6 +13,8 @@ Installing Apache Tez on a 1-node Hadoop Cluster
 $hadoop jar $TEZ_HOME/<tez-examples.jar> orderedwordcount /path/to/sample/text/file /path/to/output/hdfs/directory
 
 # Integrating Hive and Tez
+To enable Hive to use tez as its execution engine, do the following 
 
-
+1. Copy hive-exec jar from $HIVE_HOME/lib to hdfs://localhost:8020/user/tez/
+2. Use command "set hive.execution.engine=tez;" on the hive prompt OR edit hive-site.xml and change the value of the property  hive.execution.engine from "mr" to "tez" to make tez as the default engine for hive  
 
