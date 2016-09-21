@@ -10,7 +10,7 @@ Installing Apache Tez on a 1-node Hadoop Cluster (Tez version 0.8.4)
 7. Edit mapred-site.xml -> Refer to sample mapred-site.xml
 8. Test tez by running the following command
 
-$hadoop jar $TEZ_HOME/<tez-examples.jar> orderedwordcount /path/to/sample/text/file /path/to/output/hdfs/directory
+$hadoop jar $TEZ_HOME/\<tez-examples.jar\> orderedwordcount /path/to/sample/text/file /path/to/output/hdfs/directory
 
 # Integrating Hive and Tez
 To enable Hive to use tez as its execution engine, do the following 
